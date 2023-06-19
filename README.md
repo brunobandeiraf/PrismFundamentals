@@ -14,3 +14,6 @@ npx prisma generate
 
 # Create Migrate
 npx prisma migrate dev
+
+# Execute
+npx ts-node-dev server.ts

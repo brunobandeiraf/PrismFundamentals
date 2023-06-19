@@ -5,13 +5,12 @@ const prisma = new PrismaClient();
 async function main() {
   const result = await prisma.courses.create({
     data: {
-      duration: 200,
-      name: "Curso de NodeJS",
-      description: "Curso excelente de NodeJS",
+      name: "Curso de Java",
+      duration: 500,
+      description: "Curso de Java 17",
+      fk_id_teacher: "",
     },
   });
 
   console.log(result);
 }
-
-main();
