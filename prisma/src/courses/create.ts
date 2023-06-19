@@ -14,7 +14,7 @@ async function main() {
             name: "Bruno Fernandes",
           },
           create: {
-            name: "Bruno Fernandes",
+            name: "Bruno Bandeira",
           },
         },
       },
