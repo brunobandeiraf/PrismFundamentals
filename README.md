@@ -9,6 +9,10 @@ npx prisma init
 # Initialize Prisma Studio
 npx prisma studio
 
+# Retorn DB exist
+npx prisma db pull
+
+___
 # Executar as tabelas do db
 npx prisma generate
 
