@@ -13,7 +13,7 @@ npx prisma studio
 npx prisma db pull
 
 ___
-# Executar as tabelas do db
+# Running the database tables.
 npx prisma generate
 
 # Create Migrate
