@@ -1,23 +1,23 @@
-# Prism Fundamentals
+# Prisma Fundamentals
 
-# Install Prisma
+## Install Prisma
 npm add prisma
 
-# Initialize Prisma
+## Initialize Prisma
 npx prisma init 
 
-# Initialize Prisma Studio
+## Initialize Prisma Studio
 npx prisma studio
 
-# Retorn DB exist
+## Retorn DB exist
 npx prisma db pull
 
 ___
-# Running the database tables.
+## Running the database tables.
 npx prisma generate
 
-# Create Migrate
+## Create Migrate
 npx prisma migrate dev
 
-# Execute
+## Execute
 npx ts-node-dev server.ts
